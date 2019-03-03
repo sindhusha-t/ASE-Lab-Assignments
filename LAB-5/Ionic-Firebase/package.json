@@ -1,5 +1,5 @@
 {
-  "name": "first-android",
+  "name": "ionic-firebase",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -73,7 +73,7 @@
     "tslint": "~5.12.0",
     "typescript": "~3.1.6"
   },
-  "description": "An Ionic project",
+  "description": "Ionic Firebase: An Ionic project",
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
@@ -98,5 +98,11 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sindhusha-t/Ionic-app-1/issues"
-  }
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-whitelist",
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen"
+  ],
+  "cordovaPlatforms": []
 }
