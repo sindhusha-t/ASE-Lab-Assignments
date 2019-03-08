@@ -90,30 +90,30 @@ saveCustomers function saves the JSON variable to the file( writing to a file)
 1) Imported fs for read write operations on a file.   
 imported yargs for enabling the command line interface.   
 imported customers.js script file to make use of CRUD API functions.   
-![](https://github.com/sindhusha-t/ASE-Lab-Assignments/blob/master/LAB-6/express_f/Screenshots/import%20js.PNG)   
+![](https://github.com/sindhusha-t/ASE-Lab-Assignments/raw/master/LAB-6/express_f/Screenshots/import%20js.PNG)   
 
 2) Created command line options configuration for customer id, customer name, customer email address.    
-![](https://github.com/sindhusha-t/ASE-Lab-Assignments/blob/master/LAB-6/express_f/Screenshots/command_config.PNG)   
+![](https://github.com/sindhusha-t/ASE-Lab-Assignments/raw/master/LAB-6/express_f/Screenshots/command_config.PNG)   
 
 3) Configured list of commands like add, list, read, update and remove commands.    
-![](https://github.com/sindhusha-t/ASE-Lab-Assignments/blob/master/LAB-6/express_f/Screenshots/commands_list_config.PNG)   
+![](https://github.com/sindhusha-t/ASE-Lab-Assignments/raw/master/LAB-6/express_f/Screenshots/commands_list_config.PNG)   
 
 4) Implemented the add command execution which takes all 3 options and adds the customer details in JSON format.   
-![](https://github.com/sindhusha-t/ASE-Lab-Assignments/blob/master/LAB-6/express_f/Screenshots/add_command.PNG)
+![](https://github.com/sindhusha-t/ASE-Lab-Assignments/raw/master/LAB-6/express_f/Screenshots/add_command.PNG)
 
 5) Implemented list command execution which outputs the list of all customer details.
-![](https://github.com/sindhusha-t/ASE-Lab-Assignments/blob/master/LAB-6/express_f/Screenshots/list_command.PNG)
+![](https://github.com/sindhusha-t/ASE-Lab-Assignments/raw/master/LAB-6/express_f/Screenshots/list_command.PNG)
 
 6) Implemented read, update and delete commands:   
 read command takes input as ID and returns the details of the customer matching to the ID.   
 update command takes input as ID, name, email and returns the details of the updated customer ( based on the ID)   
 remove command takes the input as ID and removed the customer details from the list of customers.   
-![](https://github.com/sindhusha-t/ASE-Lab-Assignments/blob/master/LAB-6/express_f/Screenshots/RUD%20commands.PNG)
+![](https://github.com/sindhusha-t/ASE-Lab-Assignments/raw/master/LAB-6/express_f/Screenshots/RUD%20commands.PNG)
 
 7) Sample output on running the javascript files.   
 command to execute: `node app.js`   
-![](https://github.com/sindhusha-t/ASE-Lab-Assignments/blob/master/LAB-6/express_f/Screenshots/output-1.PNG)
-![](https://github.com/sindhusha-t/ASE-Lab-Assignments/blob/master/LAB-6/express_f/Screenshots/output-2.PNG)
+![](https://github.com/sindhusha-t/ASE-Lab-Assignments/raw/master/LAB-6/express_f/Screenshots/output-1.PNG)
+![](https://github.com/sindhusha-t/ASE-Lab-Assignments/raw/master/LAB-6/express_f/Screenshots/output-2.PNG)
 
 ## Task Responsibilities:   
 1) Sindhusha Tiyyagura: Created the basic CRUD API functions ( customers.js ) javascript file.   
