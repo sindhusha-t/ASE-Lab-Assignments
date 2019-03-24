@@ -28,8 +28,9 @@ export class AuthService {
       this.storage.get('PASSWORD') === fg.get('password').value ) {
 
       const obj = {name: fg.get('userName').value, email: fg.get('email').value};
+      console.log(obj);
       this.http.post(`${this.uri}/login`, obj)
-        .subscribe(data => {this.token = data; console.log(this.token.token);
+        .subscribe(data => {this.token = data; console.log(this.token);
                             this.storage.set('USER_TOKEN', this.token); });
 
       return true;

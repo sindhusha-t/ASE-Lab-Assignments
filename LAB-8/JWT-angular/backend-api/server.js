@@ -34,11 +34,11 @@ app.post('/api/customers', verifyToken, (req,res)=>{
 app.post('/api/login', (req,res)=>{
     const user={
       id: 1,
-        name:req.name,
-        email:req.email
+      name: req.body.name,
+      email: req.body.email
     };
    jwt.sign({user}, 'secretkey',(err, token)=>{
-        res.json({token})
+        res.json({token});
     });
 
 });
