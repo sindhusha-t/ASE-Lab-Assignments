@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    div
+        div(class="form-signin")
+            div.text-center
+                table(style='width:50%', border='1')
+                    tr
+                        th Name
+                        th Email
+                        th Gender
+                        th Occupation
+                    tr
+                        td #{username}
+                        td #{email}
+                        td #{gender}
+                        td #{occupation}

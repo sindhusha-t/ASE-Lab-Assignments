@@ -1,0 +1,23 @@
+{
+  "sindhusha": {
+    "name": "sindhusha",
+    "email": "sindhusha@gmail.com",
+    "password": "sindhusha",
+    "gender": "female",
+    "occupation": "student"
+  },
+  "hello": {
+    "name": "hello",
+    "email": "hello@email.com",
+    "password": "hello",
+    "gender": "female",
+    "occupation": "student"
+  },
+  "pradeepika": {
+    "name": "pradeepika",
+    "email": "kolluru@gmail.com",
+    "password": "pradeepika",
+    "gender": "female",
+    "occupation": "student"
+  }
+}
